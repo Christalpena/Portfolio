@@ -1,0 +1,29 @@
+.list {
+  width: 100%;
+  margin: auto;
+  height: 700px;
+}
+.list > div {
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  padding: 2px;
+}
+.list > div > div {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+@media screen and (max-width: 999px){
+  .list{
+      height: 900px;
+ }
+}
+@media screen and (max-width: 599px){
+  .list{
+      height: 1200px;
+ }
+}

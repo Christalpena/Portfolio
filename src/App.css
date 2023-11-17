@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --font-family: 'Anton', sans-serif;    
+    --font-size: 3.5rem;
+    --color1: #F900BF;
+    --color2: #FF1700;
+    --tags-color: #4D77FF ;
+    --sub-title-color: #14C38E;
+}
+

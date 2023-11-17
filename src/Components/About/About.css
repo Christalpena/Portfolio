@@ -1,0 +1,203 @@
+#about{
+    padding: 140px 15% 0px 15%;
+    text-align: center;
+}
+.about__title{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: #000;
+    background: linear-gradient(163deg, var(--color1) 22%, var(--color2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+.about__content {
+    font-size: 25px;
+    max-width: 50ch;
+}
+.about__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0px;
+}
+.about__container p{
+    margin-left: 2rem;
+}
+.about__slogan{
+    background-color: black;
+    border-radius: 20px;
+    padding: 8rem;
+    color: white;
+    font-size: 25px;
+}
+/*TECHNOLOGY*/
+.technology{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.technology__img{
+    height: 80px;
+    width: 80px;
+    border: solid var(--sub-title-color);
+    background-color: rgba(239, 237, 237, 0.345);
+    border-radius: 50%;
+    padding: 1rem;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.technology__img:hover{
+    height: 90px;
+    width: 90px;
+    border: solid var(--tags-color);
+    transition: all 0.2s ease;
+}
+.technology__img{
+    animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(365deg);
+   }
+}
+.technology li{
+    position: absolute;
+    list-style: none;
+    left: 0;
+    transform-origin: 300px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(270px);
+}
+.technology.active li{
+    transform: rotate(calc(360deg / 11 * var(--i)));
+}
+.toggle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(184, 53, 53, 0.137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 1.25s;
+}
+.toggle img{
+    max-width: 400px;
+    border-radius: 50%;
+}
+.technology.active .toggle{
+    transform: rotate(360deg);
+}
+.technology__tooltip{
+    position: absolute;
+    top: 0;
+}
+@media screen and (max-width:1495px){
+    .technology li{
+        transform: rotate(0deg) translateX(200px);
+   }
+    .toggle {
+        width: 260px;
+        height: 260px;
+   }
+    .toggle img{
+        max-width: 260px;
+   }
+    .technology{
+        width: 450px;
+        height: 450px;
+   }
+    .technology li{
+        transform-origin: 225px;
+   }
+}
+@media screen and (max-width:1240px){
+    .technology{
+        margin-bottom: 2rem;
+   }
+    .about__container{
+        flex-direction: column;
+        text-align: center;
+   }
+    .about__container p{
+        margin-left: 0px;
+   }
+}
+@media screen and (max-width:930px){
+    .about__slogan{
+        padding: 3rem;
+   }
+}
+@media screen and (max-width:557px){
+    .technology li{
+        transform: rotate(0deg) translateX(140px);
+   }
+    .toggle {
+        width: 200px;
+        height: 200px;
+   }
+    .toggle img{
+        max-width: 200px;
+   }
+    .technology{
+        width: 350px;
+        height: 350px;
+   }
+    .technology li{
+        transform-origin: 175px;
+   }
+    .about__content {
+        font-size: 20px;
+   }
+    .about__slogan{
+        padding: 2rem;
+        font-size: 20px;
+   }
+    .technology__img{
+        padding: 8px;
+        width: 60px;
+        height: 60px;
+   }
+    .technology__img:hover{
+        width: 60px;
+        height: 60px;
+   }
+}
+@media screen and (max-width:430px){
+    .technology li{
+        transform: rotate(0deg) translateX(117px);
+   }
+    .toggle {
+        width: 150px;
+        height: 150px;
+   }
+    .toggle img{
+        max-width: 150px;
+   }
+    .technology{
+        width: 300px;
+        height: 300px;
+   }
+    .technology li{
+        transform-origin: 150px;
+   }
+    .about__content {
+        font-size: 18px;
+   }
+    .about__slogan{
+        padding: 1rem;
+        font-size: 18px;
+   }
+}

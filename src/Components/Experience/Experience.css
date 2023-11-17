@@ -1,0 +1,52 @@
+.experience{
+    font-size: 25px;
+    height: auto;
+    padding: 140px 0px 0px 0px;
+    margin-bottom: 6rem;
+}
+.experience__title{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: #000;
+    background: linear-gradient(163deg, var(--color1) 22%, var(--color2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+.experience__details{
+    margin-top: 20px;
+    max-width: 90ch;
+}
+.experience__position{
+    color: var(--sub-title-color);
+    margin-top: 4rem;
+    margin-bottom: 10px;
+}
+.experience_skills{
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+.experience__btn{
+    width: 15%;
+    border-color: white !important;
+    color: white !important;
+    margin-bottom: 4rem !important;
+    padding: 10px 4rem !important;
+    transition: all 0.2s ease;
+}
+.experience__btn:hover{
+    width: 16%;
+    height: 50px;
+    transition: all 0.2s ease;
+}
+@media screen and (max-width:557px){
+    .experience{
+        font-size: 20px;
+   }
+}
+@media screen and (max-width:430px){
+    .experience{
+        font-size: 18px;
+   }
+}

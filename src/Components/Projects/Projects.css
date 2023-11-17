@@ -1,0 +1,31 @@
+.projects-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projects{
+    padding: 140px 15% 0px 15%;
+}
+.projects__title {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: #000;
+    background: linear-gradient(163deg, var(--color1) 22%, var(--color2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+.css-11yukd5-MuiTabs-indicator{
+    background-color: var(--sub-title-color) !important;
+}
+.css-cjctlb-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    font-family: 'Signika', sans-serif;
+}
+.css-19kzrtu {
+    padding: 3rem 0 !important;
+}
+@media screen and (max-width:920px) {
+    .projects-section{
+        justify-content: center;
+   }
+}
