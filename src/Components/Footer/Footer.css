@@ -49,8 +49,8 @@
 }
 @media screen and (max-width:1535px){
     .footer{
-        text-align: center;
-   }
+        padding: 10rem 10% 10rem 10%;
+    }
 }
 @media screen and (max-width:557px){
     .footer__phrase p{
@@ -63,6 +63,12 @@
         height: 30px;
         width: 30px;
    }
+}
+@media screen and (max-width:450px){
+    .footer{
+        padding: 140px 10% 0px 10%;
+
+    }
 }
 @media screen and (max-width:430px){
     .footer__phrase p{

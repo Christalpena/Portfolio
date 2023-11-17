@@ -175,6 +175,11 @@
         height: 60px;
    }
 }
+@media screen and (max-width:450px){
+    #about{
+        padding: 140px 10% 0px 10%;
+    }
+}
 @media screen and (max-width:430px){
     .technology li{
         transform: rotate(0deg) translateX(117px);

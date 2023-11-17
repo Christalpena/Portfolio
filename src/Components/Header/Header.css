@@ -46,11 +46,17 @@
         flex-grow: 1;
    }
 }
+@media screen and (max-width:450px){
+    .header{
+        padding: 10px 10%;
+
+    }
+}
 @media screen and (max-width:430px){
     .header-links{
-        font-size: 15px;
+        font-size: 12px;
    }
     .header a:hover{
-        font-size: 18px;
+        font-size: 14px;
    }
 }

@@ -3,9 +3,9 @@
    margin: 0px 13.5% 0px 13.5%;
    display: flex;
    justify-content: flex-start;
-   height: 100vh;
    align-items: center;
    box-sizing: border-box;
+   height: 90vh;
 }
 .welcome__img {
    border: var(--sub-title-color) 2.5px dotted;
@@ -188,7 +188,7 @@
 }
 @media screen and (max-height: 688px){
    .welcome{
-       height: 150vh;
+       height: 110vh;
   }
 }
 @media screen and (max-width:530px){
@@ -220,8 +220,8 @@
        font-size:1.8rem;
   }
 }
-@media screen and (max-height: 459px){
+@media screen and (max-height: 610px){
    .welcome{
-       height: 200vh;
+       height: 120vh;
   }
 }

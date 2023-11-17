@@ -29,3 +29,9 @@
         justify-content: center;
    }
 }
+@media screen and (max-width:450px){
+    .projects{
+        padding: 140px 10% 0px 10%;
+
+    }
+}

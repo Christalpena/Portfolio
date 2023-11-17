@@ -3,3 +3,9 @@
     padding: 0px 15% 5rem 15%;
     color: white;
 }
+@media screen and (max-width:450px){
+    .main{
+        padding: 0rem 10px 5rem 10%;
+
+    }
+}
