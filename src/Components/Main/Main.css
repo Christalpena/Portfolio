@@ -5,7 +5,7 @@
 }
 @media screen and (max-width:450px){
     .main{
-        padding: 0rem 10px 5rem 10%;
+        padding: 0rem 10% 5rem 10%;
 
     }
 }

@@ -148,20 +148,20 @@
        margin-bottom: 20px;
   }
    .welcome-img__content {
-       width: 100%;
        display: flex;
+       width: 200px !important;
+       justify-content: space-between;
   }
-   .welcome__img {
-       border: none;
-       border-radius: 0;
-       position: relative;
-       animation: 0;
-       cursor: pointer;
-       margin-right: 30px !important;
-       width: 40px;
-       height: 40px;
-       padding: 0px;
-       transition: all 0.2s ease;
+    .welcome__img {
+        border: none;
+        border-radius: 0;
+        position: relative;
+        animation: 0;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        transition: all 0.2s ease;
   }
    .welcome__img:hover {
        width: 50px;
@@ -172,6 +172,7 @@
        top: 0;
        margin-left: 0;
        margin-right: 0;
+       transform: translate(0) !important;
   }
    .welcome__img_github_transform {
        right: 0;
@@ -224,4 +225,10 @@
    .welcome{
        height: 120vh;
   }
+}
+
+@media screen and (max-width:450px){
+    .welcome{
+        margin: 0px 10% 0px 10%;
+    }
 }
