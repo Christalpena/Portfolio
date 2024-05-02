@@ -8,7 +8,7 @@ const Welcome = () => {
                         <h2>Hi there, i am</h2>
                         <h6>what you are looking for</h6>
                         <h1>Christal Peña Pérez</h1>
-                        <h2>FullStack Developer</h2>
+                        <h2>Web Developer</h2>
                     </div>
                     <div className="welcome-img__content">
                         <a href="mailto:christalpeerz0@gmail.com">                        

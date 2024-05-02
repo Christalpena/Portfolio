@@ -15,10 +15,14 @@ const About = () => {
                 <div className="about__content">
                     <p>My journey in web development is fueled by a genuine enthusiasm for technology and a commitment to continuous learning.</p>
                     <br />
-                    <p>Bringing a creative mindset that thrives on innovation and problem-solving. My enthusiasm for technology extends beyond the backend, as I delve into the frontend with React to create seamless and engaging user experiences.
+                    <p>Passionate about web creation and the challenge of turning ideas into digital reality. With strong skills in HTML, CSS, and JavaScript, along with experience in React, Python, and Django.
                     </p>
                     <br />
-                    <p>I'm not just a developer; I'm a lifelong learner who embraces challenges as opportunities for growth. Let's connect and explore how we can create something extraordinary together, bridging the worlds of backend and frontend development.</p>
+                    <p>From design to implementation, my goal is to surprise and delight users with unique and memorable web experiences.
+                    </p>
+                    
+
+
                 </div>
             </div>
 

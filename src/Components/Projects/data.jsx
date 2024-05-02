@@ -53,6 +53,29 @@ export const python = [
 
 export const react = [
     {
+        name: "Garden Bloom",
+        description: "GardenBloom is your vibrant online haven for all things floral and botanical. Explore a world of natural beauty at your fingertips with GardenBloom.",
+        image: "img/Projects/GardenBloom.webp",
+        lenguage: {
+            'one':"React",
+            'two':"Django",
+            'three':"CSS"
+        },
+        github:"https://github.com/Christalpena/GardenBloom?tab=readme-ov-file",
+    },
+    {
+        name: "Doctify",
+        description: "Doctify is an application designed to simplify and streamline your API documentation process. With Doctify, you can generate detailed and complete documentation for your API in a matter of minutes.",
+        image: "img/Projects/Doctify.webp",
+        lenguage: {
+            'one':"React",
+            'two':"TypeScript",
+            'three':"CSS"
+        },
+        github:"https://github.com/Christalpena/Doctify",
+        webSite:"https://doctify.vercel.app/doctify"
+    },
+    {
         name: "Org",
         description: "Increase the efficiency of your organization with our innovative Organization website. Take control of your workspace Whether you're organizing departments or teams, our platform allows you to do it.",
         image: "img/Projects/org1.webp",
