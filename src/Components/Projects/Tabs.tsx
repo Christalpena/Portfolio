@@ -3,7 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { python, react } from './data';
+import { jsMini, python, react } from './data';
 import { useState } from 'react';
 import React from 'react';
 import Card from '../Card';
@@ -60,8 +60,9 @@ export default function BasicTabs() {
         textColor='inherit'        
         >
           <Tab label="All" {...a11yProps(0)} />
-          <Tab label="Python" {...a11yProps(1)} />
+          <Tab label="Js Mini" {...a11yProps(1)} />
           <Tab label="React" {...a11yProps(2)} />
+          <Tab label="Python" {...a11yProps(3)} />
         </Tabs>
       </Box>
       
@@ -69,6 +70,21 @@ export default function BasicTabs() {
           <section className='projects-section'>
             {
               python.map((project) => (
+                <Card
+                  key={project.name}
+                  name = {project.name} 
+                  description = {project.description}
+                  github = {project.github}
+                  webSite = {project.webSite}
+                  img = {project.image}
+                  lenguage1 = {project.lenguage.one}
+                  lenguage2 = {project.lenguage.two}
+                  lenguage3 = {project.lenguage.three}
+                />
+              ))
+            }
+            {
+              jsMini.map((project) => (
                 <Card
                   key={project.name}
                   name = {project.name} 
@@ -101,6 +117,26 @@ export default function BasicTabs() {
 
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
+          <section className='projects-section'>
+            {
+              jsMini.map((project) => (
+                <Card
+                  key={project.name}
+                  name = {project.name} 
+                  description = {project.description}
+                  github = {project.github}
+                  webSite = {project.webSite}
+                  img = {project.image}
+                  lenguage1 = {project.lenguage.one}
+                  lenguage2 = {project.lenguage.two}
+                  lenguage3 = {project.lenguage.three}
+                />
+              ))
+            }
+          </section>
+
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={3}>
         <section className='projects-section'>
           {
             python.map((project) => (

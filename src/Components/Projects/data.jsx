@@ -113,3 +113,40 @@ export const react = [
         webSite:""
     },
 ]
+
+export const jsMini = [
+    {
+        name: "ToDO List",
+        description: "This project consists of a simple and intuitive web application for managing daily tasks. It allows the user to add, mark as completed, and delete tasks efficiently.",
+        image: "img/Projects/Todo.webp",
+        lenguage: {
+            'one':"Js",
+            'two':"HTML",
+            'three':"CSS"
+        },
+        github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/ToDoList",
+    },
+    {
+        name: "MovieSeat",
+        description: "This project is a web application designed to facilitate seat reservations in a movie theater. Users can select the movie, choose their seats on an interactive map, and make their reservation quickly and easily.",
+        image: "img/Projects/movie.webp",
+        lenguage: {
+            'one':"Js",
+            'two':"HTML",
+            'three':"CSS"
+        },
+        github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/MovieSeat",
+    },
+    {
+        name: "Comments",
+        description: "This application allows users to create discussion topics and receive comments from others. It uses localStorage to store data, providing a fast experience without the need for an external connection.",
+        image: "img/Projects/comments.webp",
+        lenguage: {
+            'one':"Js",
+            'two':"HTML",
+            'three':"CSS"
+        },
+        github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/MovieSeat",
+    },
+
+]
