@@ -125,6 +125,8 @@ export const jsMini = [
             'three':"CSS"
         },
         github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/ToDoList",
+        webSite:"https://todolist-gocq.onrender.com"
+
     },
     {
         name: "MovieSeat",
@@ -136,6 +138,8 @@ export const jsMini = [
             'three':"CSS"
         },
         github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/MovieSeat",
+        webSite:"https://movieseats.onrender.com"
+
     },
     {
         name: "Comments",
@@ -147,6 +151,8 @@ export const jsMini = [
             'three':"CSS"
         },
         github:"https://github.com/Christalpena/MiniJs_Projects/tree/master/MovieSeat",
+        webSite:"https://commentapp-hdsv.onrender.com"
+
     },
 
 ]
